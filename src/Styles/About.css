@@ -23,4 +23,7 @@
     box-shadow: 0 10px 15px rgba(138, 7, 98, 0.1);
   }
 
- 
+ .emoji{
+    width: 150px;
+    height: 100px;
+ }

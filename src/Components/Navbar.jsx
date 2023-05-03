@@ -5,7 +5,6 @@ import '../Styles/Navbar.css'
 function Navbar() {
   return (
     <nav className='sticky'>
-      <h1>PeaceSandy</h1>
       <ul>
         <li>
           <Link to="/">Home</Link>
