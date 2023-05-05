@@ -1,7 +1,5 @@
-.about-container{
+.isScrolling{
     margin-top: 150px;
-    display: flex;
-    justify-content: center;
 }
 
 .intro-section{
@@ -27,3 +25,5 @@
     width: 150px;
     height: 100px;
  }
+
+ 
