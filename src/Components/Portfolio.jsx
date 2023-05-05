@@ -33,6 +33,7 @@ function Portfolio() {
   return (
     <div  id="scrolling-text" className={isScrolling ? 'ScrollingText ScrollingText--animate' : 'ScrollingText'}>
       <h1>Check out my projects</h1>
+      <img src='Profile'/>
     </div>
   )
 }
