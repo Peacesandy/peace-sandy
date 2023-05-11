@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+
+.image{
+    padding-top: 80px;
+    width: 200px;
+    height: 250px;
+    padding-left: 250px;
+    justify-content: center;
+}
+
+.container{
+    position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.text{
+    padding-top: 5px;
+    padding-left: 80px ;
+}
+
+.full-text{
+    margin-top: 50px;
+}

@@ -9,6 +9,7 @@ import Portfolio from "./Components/Portfolio";
 import Navbar from "./Components/Navbar";
 import Experience from "./Components/Experience";
 import Blog from "./Components/Blog";
+import Footer from "./Components/Footer"
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
       <Route  path="/experience" element={<Experience/>} />
       <Route  path="/blog" element={<Blog />} />
     </Routes>
-
+     <Footer/>
     </BrowserRouter>
   );
 }
