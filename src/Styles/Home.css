@@ -13,10 +13,11 @@
 
 .container{
     position: relative;
+    height: 700px;
+    background-color: grey;
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
 }
 
 .text{
