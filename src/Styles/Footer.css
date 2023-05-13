@@ -5,3 +5,12 @@
     background-color:#FFCCE1;
     margin-top: 0px;
 }
+
+.footer-icon{
+    color: black;
+    text-decoration: none;
+}
+
+.footer-ul{
+    list-style-type: none;
+}

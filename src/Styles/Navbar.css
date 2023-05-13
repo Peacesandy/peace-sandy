@@ -9,7 +9,7 @@ nav {
     transition: all .3s ease-in-out;
   }
   
-  ul {
+  .nav-ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -17,7 +17,7 @@ nav {
     margin: 0;
   }
   
-  li {
+  .nav-li {
     margin: 0px;
     margin-left: 6rem;
   }

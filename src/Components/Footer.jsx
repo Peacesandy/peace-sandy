@@ -16,10 +16,10 @@ function Footer() {
       <button>Buy me a coffee</button>
       </div>
       <div>
-        <ul>
-          <li> <a href="http://twitter.com/PeaceSandy3" onClick={(event) => handleLinkClick(event, 'http://twitter.com/PeaceSandy3' )}> <FaTwitter/> </a> </li>
-          <li> <a href="https://www.linkedin.com/in/peace-sandy-bb7a691b0" onClick={(event) => handleLinkClick(event, 'https://www.linkedin.com/in/peace-sandy-bb7a691b0')}> <FaLinkedin/></a> </li>
-          <li> <a href="https://github.com/Peacesandy" onClick={(event) => handleLinkClick(event, 'https://github.com/Peacesandy')}> <FaGithub/></a> </li>
+        <ul className='footer-ul'>
+          <li> <a href="http://twitter.com/PeaceSandy3" onClick={(event) => handleLinkClick(event, 'http://twitter.com/PeaceSandy3' )} className='footer-icon'> <FaTwitter/> </a> </li>
+          <li> <a href="https://www.linkedin.com/in/peace-sandy-bb7a691b0" onClick={(event) => handleLinkClick(event, 'https://www.linkedin.com/in/peace-sandy-bb7a691b0')} className='footer-icon'> <FaLinkedin/></a> </li>
+          <li> <a href="https://github.com/Peacesandy" onClick={(event) => handleLinkClick(event, 'https://github.com/Peacesandy')} className='footer-icon'> <FaGithub/></a> </li>
         </ul>
       </div>
     </div>

@@ -11,9 +11,9 @@ function Home() {
       </div>
 
       <div className='text'>
-      <h1>Hello, I'm Peace Sandy</h1>
+      <h1 className='name'>Hello, I'm Peace Sandy</h1>
       <br/>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        <p className='bio'>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
          <br/> Incidunt perferendis, molestias optio laborum excepturi soluta 
          <br/> quas magni itaque recusandae. Perferendis aliquid sed mollitia enim possimus!</p>
         </div>
