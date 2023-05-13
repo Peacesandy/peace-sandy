@@ -3,8 +3,8 @@ import '../Styles/Contact.css'
 
 function Contact() {
   return (
-    <div className='contact-container'>
-      <div>
+    <div className='contact-container' id='contact'>
+      <div className='contact-text'>
         <h1>Contact</h1>
         <br/>
         <p>Invite me to speak at your conference, tell me about other</p>

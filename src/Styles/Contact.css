@@ -1,3 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-text{
+    text-align: center;
+}
+
 .contact-container{
+    padding: 12px 24px 24px 24px;
+    margin: 48px 12px;
+    justify-content: center;
     margin-top: 30px;
+    padding: 0.5rem, 1rem;
+}
+
+label{
+    font-size: 0.85em;
+    margin: 12px;
+}
+
+input[type=text],input[type=email], textarea{
+    width: 100%;
+    padding: 12px;
 }

@@ -10,7 +10,7 @@ function Footer() {
        }
 
   return (
-    <div className='footer'>
+    <div className='footer' id='footer'>
       <div>
       <p>Would you like to support my content</p>
       <button>Buy me a coffee</button>

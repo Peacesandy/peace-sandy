@@ -8,7 +8,7 @@ function About() {
 
   return (
     <> 
-    <div className='about-container'>
+    <div className='about-container' id='about'>
         <h1 className='intro-section'>Hi There ! <img src={Emoji} alt='Emoji' className='emoji'/></h1>
         <br/>
         <motion.div

@@ -6,7 +6,7 @@ function Portfolio() {
   
 
   return (
-    <div>
+    <div id='portfolio'>
       <h1>Check out my projects</h1>
       <div>
         <h2>Project 2</h2>

@@ -4,7 +4,7 @@ import '../Styles/Home.css'
 
 function Home() {
   return (
-    <div className='container'>
+    <div className='container' id='home'>
 
       <div className='image-container'>  
       <img src={image} alt='author' className='image'/>
