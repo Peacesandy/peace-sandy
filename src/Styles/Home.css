@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(224, 115, 134) ;
+    background-color: #0D1926 ;
     overflow: hidden;
     /*CSS Smooth Scroll */
     overflow-y: scroll;
@@ -23,25 +23,23 @@ body{
 .container{
     position: relative;
     height: 700px;
-    background-color: rgb(224, 115, 134);
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #0D1926;
+    justify-content: space-between;
+    padding-top: 5%;
 }
 
-.text{
-    padding-top: 5px;
-    padding-left: 80px ;
-}
 
-.full-text{
-    margin-top: 50px;
-}
 
 .name{
     color: #732646;
 }
 
 .bio{
-    color: #62505B;
+    color: #fff;
+    font-size: 700%;
+}
+
+.hand{
+    width: 100px;
+    height: 50px;
 }
