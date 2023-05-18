@@ -1,5 +1,6 @@
 
 .About-intro{
+    margin-top: 5%;
     color: #fff;
     text-align: center;
     padding-top: 0%;
@@ -24,7 +25,9 @@ hr{
     font-size: 100%;
 }
 
-
+.span-ut{
+    color: #1A324C;
+}
 
 
  

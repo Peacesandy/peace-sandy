@@ -12,15 +12,9 @@ body{
 }
 
 
-.image{
-    padding-top: 80px;
-    width: 200px;
-    height: 250px;
-    padding-left: 250px;
-    justify-content: center;
-}
-
 .container{
+    display: flex;
+    flex-direction: column;
     position: relative;
     height: 700px;
     background-color: #0D1926;
@@ -29,17 +23,18 @@ body{
 }
 
 
-
-.name{
-    color: #732646;
-}
-
 .bio{
     color: #fff;
     font-size: 700%;
+    padding-left: 10%;
 }
 
-.hand{
-    width: 100px;
-    height: 50px;
+.logo-text{
+    color: #fff;
+    padding-left: 10%;
+    padding-bottom: 0;
+}
+
+.span-software{
+   color:#1A324C;   
 }
