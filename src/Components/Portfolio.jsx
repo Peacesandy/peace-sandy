@@ -7,7 +7,7 @@ function Portfolio() {
 
   return (
     <div id='portfolio'>
-      <h1>Check out my projects</h1>
+      <h1 className='skills-intro'>Skills</h1>
       <div>
         <h2>Project 2</h2>
         <p>Lorem ipsum dolor sit amet consectetur 

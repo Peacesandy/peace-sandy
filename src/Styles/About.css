@@ -11,12 +11,18 @@ hr{
 }
 
 .About-text1{
+    margin-top: 5%;
     padding-left: 20%;
     color: #fff;
     font-size: 100%;
 }
 
-
+.About-text2{
+    margin-top: 10%;
+    padding-left: 55%;
+    color: #fff;
+    font-size: 100%;
+}
 
 
 

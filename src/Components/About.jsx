@@ -20,6 +20,7 @@ function About() {
            <br/> ae laborum quam, perferendis deserunt quos officiis, consequ
            <br/>  untur molestiae eveniet. deserunt quos officiis, consequ</p>
          </div>
+         <hr/>
     </div>
     </>
   )
