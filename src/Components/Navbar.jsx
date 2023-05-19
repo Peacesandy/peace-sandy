@@ -15,7 +15,7 @@ function Navbar() {
           <a href="#about">About <FaUserTie size={15}/> </a>
         </li>
         <li className='nav-li'>
-          <a href="#portfolio">Skills <FaRegFileCode size={15}/> </a>
+          <a href="#skills">Skills <FaRegFileCode size={15}/> </a>
         </li>
         <li className='nav-li'>
           <a href="#experience">Experience <FaAddressBook size={15}/> </a>
