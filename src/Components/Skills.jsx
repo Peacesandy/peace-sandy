@@ -22,55 +22,48 @@ function Skills() {
               <img src={Html} alt="An Html Card" className='html' />
               <h1>HTML</h1>
           </div>
-      </div>
-      <div className='skills-container'>
+
           <div className='skill-card'>
               <img src={Css} alt="A CSS card" className='css' />
               <h1>CSS</h1>
-          </div>      
-      </div>
-      <div className='skills-container'>
+          </div>  
+
           <div className='skill-card'>
               <img src={Javascript} alt="A javascript card" className='javascript'/>
               <h1>JAVASCRIPT</h1>
-          </div>      
-      </div>
-      <div className='skills-container'>
+          </div>   
+
           <div className='skill-card'>
               <img src={Framework} alt="A framework card" className='framework' />
               <h1>REACT</h1>
-          </div>      
-      </div>
-      <div className='skills-container'>
+          </div>  
+
           <div className='skill-card'>
               <img src={Github} alt="A Git Card" className='github' />
               <h1>GITHUB</h1>
-          </div>      
-      </div>
-      <div className='skills-container'>
+          </div> 
+
           <div className='skill-card'>
               <img src={Firestore} alt="A firestore card" className='Firestore' />
               <h1>FIRESTORE</h1>
-          </div>      
-      </div>
-      <div className='skills-container'>
+          </div>   
+
           <div className='skill-card'>
               <img src={Styled} alt="A styled card" className='Redux' />
               <h1>Redux</h1>
-          </div>      
-      </div>
-      <div className='skills-container'>
+          </div>   
+
           <div className='skill-card'>
               <img src={Markdown} alt="A markdown card" className='Markdown'/>
               <h1>MARKDOWN</h1>
-          </div>      
-      </div>
-      <div className='skills-container'>
-          <div className='skill-card'>
+          </div>    
+
+           <div className='skill-card'>
               <img src={Git} alt="A git card" className='git'/>
               <h1>GIT</h1>
-          </div>      
+          </div>  
       </div>
+    
     </div>
   )
 }

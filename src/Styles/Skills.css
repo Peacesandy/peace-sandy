@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
 .skills-intro{
     color: #fff;
     display: flex;
@@ -51,23 +57,15 @@
    width: 90px;
 }
 
-.skill-section{
-    margin: 100px 0;
-}
+
 
 .skills-container{
     display: flex;
-    align-items: center;
-    width: 95%;
-    margin: auto;
-    justify-content: space-between;
-    color: #fff;
+    flex-wrap: wrap;
 }
 
 .skill-card{
     display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
