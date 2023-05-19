@@ -5,3 +5,69 @@
     text-align: center;
     font-size: 500% ;
   }
+
+.Firestore{
+    height: 100px;
+    width: 90px;
+}
+
+.Redux{
+    height: 100px;
+    width: 90px;
+}
+
+.Markdown{
+    height: 100px;
+    width: 90px;
+}
+
+.html{
+   height: 100px;
+   width: 90px;
+}
+
+.css{
+    height: 100px;
+   width: 90px;
+}
+
+.javascript{
+    height: 100px;
+    width: 90px;
+}
+
+.framework{
+    height: 100px;
+    width: 90px;
+}
+
+.github{
+    height: 100px;
+   width: 90px;
+}
+
+.git{
+    height: 100px;
+   width: 90px;
+}
+
+.skill-section{
+    margin: 100px 0;
+}
+
+.skills-container{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.skill-card{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+}
+
