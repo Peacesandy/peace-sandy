@@ -27,6 +27,7 @@ function Contact() {
         ></textarea>
         <button type='submit'>send</button>
       </form>
+      <hr/>
     </div>
   )
 }

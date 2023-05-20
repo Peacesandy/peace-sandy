@@ -16,7 +16,7 @@ import '../Styles/Skills.css'
 function Skills() {
   return (
     <div id='skill-section'>
-      <h1 className='skills-intro'>Skills</h1>
+      <h1 className='skills-intro'> <span className='span-my'>My</span> Skills</h1>
       <div className='skills-container'>
 
       <div class="flip-card">

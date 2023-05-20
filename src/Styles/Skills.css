@@ -5,11 +5,13 @@
 
 .skills-intro{
     color: #fff;
-    display: flex;
-    flex-direction: column;
     text-align: center;
     font-size: 500% ;
     padding-bottom: 40px;
+  }
+
+  .span-my{
+    color: #1A324C
   }
 
 .Firestore{
