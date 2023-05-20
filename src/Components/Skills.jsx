@@ -18,10 +18,29 @@ function Skills() {
     <div id='skill-section'>
       <h1 className='skills-intro'>Skills</h1>
       <div className='skills-container'>
-          <div className='skill-card'>
-              <img src={Html} alt="An Html Card" className='html' />
-              <h1>HTML</h1>
-          </div>
+
+      <div class="flip-card">
+       <div class="flip-card-inner">
+       <div class="flip-card-front">
+      <img src={Html} alt="A git card" className='html'/>
+      </div>
+       <div class="flip-card-back">
+      <h1>HTML</h1>
+      </div>
+      </div>
+      </div>
+          
+
+          <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src={Git} alt="A git card" className='git'/>
+    </div>
+    <div class="flip-card-back">
+      <h1>GIT</h1>
+    </div>
+  </div>
+</div>
 
           <div className='skill-card'>
               <img src={Css} alt="A CSS card" className='css' />
