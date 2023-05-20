@@ -3,13 +3,13 @@
 }
 
 
-
 .skills-intro{
     color: #fff;
     display: flex;
     flex-direction: column;
     text-align: center;
     font-size: 500% ;
+    padding-bottom: 40px;
   }
 
 .Firestore{
@@ -71,9 +71,9 @@
 .skills-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 100px;
+    grid-gap: 20px;
     color: #fff;
-    width: 95%;
+    width: 60%;
     margin: auto;
 }
 
@@ -89,7 +89,8 @@
     box-shadow: 0 4px 8px 0 rgba(80, 23, 240, 0.2);
     border-radius: 5px;
     margin-left: 30px;
-    padding-left: 40px;
+    padding-left: 45px;
+    padding-top: 20px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
 

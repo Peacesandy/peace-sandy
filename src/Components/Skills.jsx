@@ -42,47 +42,85 @@ function Skills() {
   </div>
 </div>
 
-          <div className='skill-card'>
-              <img src={Css} alt="A CSS card" className='css' />
-              <h1>CSS</h1>
-          </div>  
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src={Css} alt="A git card" className='css'/>
+    </div>
+    <div class="flip-card-back">
+      <h1>CSS</h1>
+    </div>
+  </div>
+</div>
 
-          <div className='skill-card'>
-              <img src={Javascript} alt="A javascript card" className='javascript'/>
-              <h1>JAVASCRIPT</h1>
-          </div>   
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src={Javascript} alt="A git card" className='javascript'/>
+    </div>
+    <div class="flip-card-back">
+      <h1>JAVASCRIPT</h1>
+    </div>
+  </div>
+</div>
 
-          <div className='skill-card'>
-              <img src={Framework} alt="A framework card" className='framework' />
-              <h1>REACT</h1>
-          </div>  
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src={Framework} alt="A git card" className='framework'/>
+    </div>
+    <div class="flip-card-back">
+      <h1>REACT</h1>
+    </div>
+  </div>
+</div> 
 
-          <div className='skill-card'>
-              <img src={Github} alt="A Git Card" className='github' />
-              <h1>GITHUB</h1>
-          </div> 
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src={Github} alt="A git card" className='github'/>
+    </div>
+    <div class="flip-card-back">
+      <h1>GIT</h1>
+    </div>
+  </div>
+  </div>
 
-          <div className='skill-card'>
-              <img src={Firestore} alt="A firestore card" className='Firestore' />
-              <h1>FIRESTORE</h1>
-          </div>   
 
-          <div className='skill-card'>
-              <img src={Styled} alt="A styled card" className='Redux' />
-              <h1>Redux</h1>
-          </div>   
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src={Firestore} alt="A git card" className='Firestore'/>
+    </div>
+    <div class="flip-card-back">
+      <h1>FIRESTORE</h1>
+    </div>
+  </div>
+</div>   
 
-          <div className='skill-card'>
-              <img src={Markdown} alt="A markdown card" className='Markdown'/>
-              <h1>MARKDOWN</h1>
-          </div>    
-
-           <div className='skill-card'>
-              <img src={Git} alt="A git card" className='git'/>
-              <h1>GIT</h1>
-          </div>  
+     <div class="flip-card">
+     <div class="flip-card-inner">
+      <div class="flip-card-front">
+       <img src={Styled} alt="A git card" className='Redux'/>
       </div>
-    
+       <div class="flip-card-back">
+        <h1>REDUX</h1>
+       </div>
+       </div>
+       </div>
+
+       <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src={Markdown} alt="A git card" className='Markdown'/>
+    </div>
+    <div class="flip-card-back">
+      <h1>MARKDOWN</h1>
+    </div>
+  </div>
+</div>
+
+      </div>
     </div>
   )
 }
