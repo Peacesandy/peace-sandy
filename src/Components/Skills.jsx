@@ -25,7 +25,7 @@ function Skills() {
       <img src={Html} alt="A git card" className='html'/>
       </div>
        <div class="flip-card-back">
-      <h1>HTML</h1>
+      <h6 className='card-skill'>HTML</h6>
       </div>
       </div>
       </div>
@@ -37,7 +37,7 @@ function Skills() {
     <img src={Git} alt="A git card" className='git'/>
     </div>
     <div class="flip-card-back">
-      <h1>GIT</h1>
+      <h6 className='card-skill'>GIT</h6>
     </div>
   </div>
 </div>
@@ -48,7 +48,7 @@ function Skills() {
     <img src={Css} alt="A git card" className='css'/>
     </div>
     <div class="flip-card-back">
-      <h1>CSS</h1>
+      <h6 className='card-skill'>CSS</h6>
     </div>
   </div>
 </div>
@@ -59,7 +59,7 @@ function Skills() {
     <img src={Javascript} alt="A git card" className='javascript'/>
     </div>
     <div class="flip-card-back">
-      <h1>JAVASCRIPT</h1>
+      <h6 className='card-skill'>JAVASCRIPT</h6>
     </div>
   </div>
 </div>
@@ -70,7 +70,7 @@ function Skills() {
     <img src={Framework} alt="A git card" className='framework'/>
     </div>
     <div class="flip-card-back">
-      <h1>REACT</h1>
+      <h6 className='card-skill'>REACT</h6>
     </div>
   </div>
 </div> 
@@ -81,7 +81,7 @@ function Skills() {
     <img src={Github} alt="A git card" className='github'/>
     </div>
     <div class="flip-card-back">
-      <h1>GIT</h1>
+      <h6 className='card-skill'>GIT</h6>
     </div>
   </div>
   </div>
@@ -93,7 +93,7 @@ function Skills() {
     <img src={Firestore} alt="A git card" className='Firestore'/>
     </div>
     <div class="flip-card-back">
-      <h1>FIRESTORE</h1>
+      <h6 className='card-skill'>FIRESTORE</h6>
     </div>
   </div>
 </div>   
@@ -104,7 +104,7 @@ function Skills() {
        <img src={Styled} alt="A git card" className='Redux'/>
       </div>
        <div class="flip-card-back">
-        <h1>REDUX</h1>
+        <h6 className='card-skill'>REDUX</h6>
        </div>
        </div>
        </div>
@@ -115,7 +115,7 @@ function Skills() {
     <img src={Markdown} alt="A git card" className='Markdown'/>
     </div>
     <div class="flip-card-back">
-      <h1>MARKDOWN</h1>
+      <h6 className='card-skill'>MARKDOWN</h6>
     </div>
   </div>
 </div>
