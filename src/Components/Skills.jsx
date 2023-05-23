@@ -9,6 +9,8 @@ import Firestore from '../Images/Firestore.png'
 import Styled  from '../Images/redux.png'
 import Markdown from '../Images/markdown.png'
 import Git from '../Images/git.png'
+import Figma from '../Images/figma.png'
+import Sass from '../Images/sass.png'
 
 
 import '../Styles/Skills.css'
@@ -113,6 +115,28 @@ function Skills() {
   <div class="flip-card-inner">
     <div class="flip-card-front">
     <img src={Markdown} alt="A git card" className='Markdown'/>
+    </div>
+    <div class="flip-card-back">
+      <h6 className='card-skill'>MARKDOWN</h6>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src={Figma} alt="A git card" className='Markdown'/>
+    </div>
+    <div class="flip-card-back">
+      <h6 className='card-skill'>MARKDOWN</h6>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src={Sass} alt="A git card" className='Markdown'/>
     </div>
     <div class="flip-card-back">
       <h6 className='card-skill'>MARKDOWN</h6>
