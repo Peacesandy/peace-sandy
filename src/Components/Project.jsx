@@ -14,9 +14,9 @@ function Project() {
   return (
     <div className='project'>
         <hr/>
-    <div className=''>
+    <div className='project-title'>
         <h1>Projects</h1>
-        <p>Here are some of my projects</p>
+        <p>Check out some of my projects</p>
     </div>
     <div className='projects-container'>  
 
