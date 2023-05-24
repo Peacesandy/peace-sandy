@@ -21,6 +21,9 @@ function Navbar() {
           <a href="#experience">Experience <FaAddressBook size={15}/> </a>
         </li>
         <li className='nav-li'>
+          <a href="#project">Project</a>
+        </li>
+        <li className='nav-li'>
           <a href="#blog"> Blog <FaWrench size={15}/> </a>
         </li>
         <li className='nav-li'>
