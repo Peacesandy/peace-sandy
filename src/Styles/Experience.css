@@ -34,6 +34,7 @@
     margin: -80px 0;
     position: relative;
     background: #1A324C;
+    box-shadow: 0 3px 10px #1f2355;
 }
 
 .card:nth-child(even){
@@ -48,7 +49,7 @@
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    border: 5px solid #191919;
+    border: 5px solid  #1f2355;
     border-radius: 50%;
 }
 
@@ -72,7 +73,7 @@
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    border: 5px solid #191919;
+    border: 5px solid #1f2355;;
     border-radius: 50%;
 }
 
@@ -90,18 +91,23 @@
 
 .card:nth-child(2), .card:nth-child(2):before{
     background: #1A324C;
+    box-shadow: 0 3px 10px #1f2355;
 }
 .card:nth-child(3), .card:nth-child(3):before{
     background: #1A324C;
+    box-shadow: 0 3px 10px #1f2355;
 }
 .card:nth-child(4), .card:nth-child(4):before{
     background: #1A324C;
+    box-shadow: 0 3px 10px #1f2355;
 }
 .card:nth-child(5), .card:nth-child(5):before{
     background: #1A324C;
+    box-shadow: 0 3px 10px #1f2355;
 }
 .card:nth-child(6), .card:nth-child(6):before{
     background: #1A324C;
+    box-shadow: 0 3px 10px #1f2355;
 }
 
 .card:nth-child(even) .card-body:before{
