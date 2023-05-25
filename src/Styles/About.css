@@ -45,7 +45,26 @@ hr{
     margin-left: 55%;
   }
 
+@media screen and (max-width: 720px) {
+    
+    .About-intro{
+        margin-top: 15rem;
+    }
 
+    .Bio-1{
+        margin-top: 3rem;
+        width: 20.5rem;
+        margin-left: 180px;
+    }
+
+    .Bio-2{
+        margin-top: 5rem;
+        width: 20.5rem;
+        margin-left: 180px;
+    }
+
+
+}
 
  
 
