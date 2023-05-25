@@ -10,8 +10,8 @@ function Blog() {
   return (
     <div id='blog'> 
     <hr/>
-    <div>
-      <h1>Publications</h1>
+    <div className='Publications'>
+      <h1 className='publications-text'>Publications</h1>
     </div>
     <div className='projects-container'>
        
@@ -37,6 +37,7 @@ function Blog() {
     </div>
 
     </div>
+    <hr/>
     </div>
       
   )
