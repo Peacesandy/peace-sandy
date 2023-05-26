@@ -55,6 +55,8 @@ hr{
     
     .About-intro{
         margin-top: 15rem;
+        font-size: 300%;
+        padding-right: 25%;
     }
 
     .Bio-1{
@@ -78,16 +80,18 @@ hr{
         margin-top: 4rem;
     }
 
+    
+
     .Bio-1{
         margin-top: 3rem;
-        width: 20.5rem;
-        margin-left: 75px;
+        width: 15rem;
+        margin-left: 50px;
     }
 
     .Bio-2{
         margin-top: 5rem;
-        width: 20.5rem;
-        margin-left: 75px;
+        width: 15rem;
+        margin-left: 50px;
     }
 
 }
