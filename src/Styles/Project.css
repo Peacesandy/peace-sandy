@@ -27,9 +27,6 @@
     justify-content: center;
 }
 
-
-
-
 .project-container{
     text-align: center;
     width: 21.875rem;
@@ -56,4 +53,13 @@
     margin: 10px;
     margin-left: 40px;
     margin-top: 60px;
+  }
+
+  @media screen and (max-width: 720px) {
+    
+
+     .project-container{
+      width: 200%;
+     }
+
   }

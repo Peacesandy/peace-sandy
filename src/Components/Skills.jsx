@@ -9,7 +9,7 @@ import Firestore from '../Images/Firestore.png'
 import Styled  from '../Images/redux.png'
 import Markdown from '../Images/markdown.png'
 import Git from '../Images/git.png'
-import Figma from '../Images/figma3.png'
+import Figma from '../Images/icons8-figma.svg'
 import Sass from '../Images/icons8-sass.svg'
 
 

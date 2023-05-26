@@ -117,11 +117,13 @@
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    border-radius: 5px;
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
+    border-radius: 5px;
   }
   
   /* Position the front and back side */
@@ -144,6 +146,7 @@
     background-color: var(--Lightblue-color);
     color: var(--white-color);
     transform: rotateY(180deg);
+    border-radius: 10px;
   }
 
 @media screen and (max-width: 720px){
@@ -151,23 +154,61 @@
   .flip-card{
     width: 120px;
     height: 100px;
-    margin-left: 6px ;
+    margin-left: 4px ;
   }
   
   .Firestore{
-    margin-right: 120px;
+    margin-left: -15px;
     width: 60px;
     height: 70px;
 }
 
 .Redux{
-    margin-right: 120px ;
+  margin-left: -15px;
     width: 60px;
     height: 70px;
 }
 
 .Markdown{
-    margin-right: 60px;
+  margin-left: -15px;
+    width: 60px;
+    height: 70px;
+}
+
+.html{
+  margin-left: -15px;
+    width: 60px;
+    height: 70px;
+}
+
+.css{
+  margin-left: -15px;
+  width: 60px;
+  height: 70px;
+}
+
+.javascript{
+  margin-left: -15px;
+  width: 60px;
+  height: 70px;
+}
+
+.framework{
+  margin-left: -15px;
+  width: 60px;
+  height: 70px;
+}
+
+.github{
+  margin-left: -15px;
+  width: 60px;
+  height: 70px;
+}
+
+.git{
+  margin-left: -15px;
+    width: 60px;
+    height: 70px;
 }
 
 }
