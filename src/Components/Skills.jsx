@@ -10,7 +10,7 @@ import Styled  from '../Images/redux.png'
 import Markdown from '../Images/markdown.png'
 import Git from '../Images/git.png'
 import Figma from '../Images/figma.png'
-import Sass from '../Images/sass.png'
+import Sass from '../Images/icons8-sass.svg'
 
 
 import '../Styles/Skills.css'
