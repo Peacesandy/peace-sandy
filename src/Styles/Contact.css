@@ -74,7 +74,7 @@ input[type=text],input[type=email], textarea{
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
 
   .contact-form-container {
     max-width: 17.75rem;
