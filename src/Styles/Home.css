@@ -44,7 +44,7 @@ body{
 @media screen and (max-width: 480px)  {
     .bio{
         color: var(--white-color);
-        font-size: 550%;
+        font-size: 450%;
         padding-left: 8%;
     }
 
