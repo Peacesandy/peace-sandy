@@ -4,14 +4,14 @@
 
 
 .skills-intro{
-    color: #fff;
+    color: var(--white-color);
     text-align: center;
     font-size: 500% ;
     padding-bottom: 40px;
   }
 
   .span-my{
-    color: #1A324C;
+    color: var(--Lightblue-color);
   }
 
 .Firestore{
@@ -73,7 +73,7 @@
   text-align: center;
   font-size: small;
   justify-content: center;
-  color: #fff;
+  color: var(--white-color);
   margin-right: 40%;
 }
 
@@ -83,7 +83,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    color: #fff;
+    color: var(--white-color);
     width: 60%;
     margin: auto;
 }
@@ -93,11 +93,11 @@
 }
 
 .flip-card {
-    background-color: #1A324C ;
+    background-color: var(--Lightblue-color);
     width: 200px;
     height: 150px;
-    border: 1px solid #1A324C;
-    box-shadow: 0 4px 8px 0 rgba(80, 23, 240, 0.2);
+    border: 1px solid var(--Lightblue-color);
+    box-shadow: 0 4px 8px 0 var(--Lightblue-color);
     border-radius: 11px;
     margin-left: 30px;
     padding-left: 45px;
@@ -106,7 +106,7 @@
   }
 
   .card:hover{
-    box-shadow: 0 8px 16px 0 rgba(112, 10, 10, 0.2);
+    box-shadow: 0 8px 16px 0 var(--Lightblue-color);
   }
   
   /* This container is needed to position the front and back side */
@@ -135,14 +135,14 @@
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #1A324C;
-    color: black;
+    background-color: var(--Lightblue-color);
+    color: var(--white-color);
   }
   
   /* Style the back side */
   .flip-card-back {
-    background-color: #1A324C;
-    color: white;
+    background-color: var(--Lightblue-color);
+    color: var(--white-color);
     transform: rotateY(180deg);
   }
 

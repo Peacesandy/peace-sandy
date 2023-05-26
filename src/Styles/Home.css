@@ -4,11 +4,12 @@
 }
 
 body{
-    background-color: #0D1926 ;
+    background-color: var(--Darkblue-color) ;
     overflow: hidden;
     /*CSS Smooth Scroll */
     overflow-y: scroll;
     scroll-behavior: smooth;
+    font-family: var(--font-family);
 }
 
 
@@ -17,24 +18,25 @@ body{
     flex-direction: column;
     position: relative;
     height: 700px;
-    background-color: #0D1926;
+    background-color: var(--Darkblue-color);
     justify-content: space-between;
     padding-top: 5%;
+    font-family: var(--font-family);
 }
 
 
 .bio{
-    color: #fff;
+    color: var(--white-color);
     font-size: 700%;
     padding-left: 10%;
 }
 
 .logo-text{
-    color: #fff;
+    color: var(--white-color);
     padding-left: 10%;
     padding-bottom: 0;
 }
 
 .span-software{
-   color:#1A324C;   
+   color: var(--Lightblue-color);   
 }

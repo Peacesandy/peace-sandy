@@ -20,13 +20,13 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 3px 4px;
-    background-color: #0D1926;
-    box-shadow: 0 4px 6px #0D1926;
+    background-color: var(--Darkblue-color);
+    box-shadow: 0 4px 6px var(--Darkblue-color);
     transition: all .3s ease-in-out;
   }
 
   nav h1{
-    color: #fff;
+    color: var(--white-color);
   }
 
   .nav-ul {
@@ -42,7 +42,7 @@ nav {
   
   a {
     text-decoration: none;
-    color: #F5F5F5;
+    color: var(--white-color);
   }
   
 

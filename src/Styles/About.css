@@ -1,7 +1,11 @@
+body{
+    font-family: var(--font-family);
+}
+
 
 .About-intro{
     margin-bottom: 5%;
-    color: #fff;
+    color: var(--white-color);
     text-align: center;
     padding-top: 0%;
     font-size: 500%;
@@ -13,35 +17,37 @@ hr{
 
 .About-text1{
     margin-top: 5%;
-    color: #fff;
+    color: var(--white-color);
     font-size: 100%;
 }
 
 .About-text2{
     margin-top: 10%;
-    color: #fff;
+    color: var(--white-color);
     font-size: 100%;
 }
 
 .span-ut{
-    color: #1A324C;
+    color: var(--Lightblue-color);
 }
 
 .Bio-1 {
+    font-size: 20px;
     width: 25rem;
     border-radius: 6px;
     padding: 0.625rem;
     margin-left: 20%;
-    box-shadow: 0 3px 10px #1f2355;
-    background-color: #1A324C;
+    box-shadow: 0 3px 10px var(--Lightblue-color);
+    background-color: var(--Lightblue-color);
   }
 
   .Bio-2 {
+    font-size: 20px;
     width: 25rem;
     border-radius: 6px;
     padding: 0.625rem;
-    box-shadow: 0 3px 10px #1f2355;
-    background-color: #1A324C;
+    box-shadow: 0 3px 10px var(--Lightblue-color);
+    background-color: var(--Lightblue-color);
     margin-left: 55%;
   }
 

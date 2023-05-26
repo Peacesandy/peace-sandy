@@ -1,6 +1,6 @@
 
 .project-title{
-    color: #fff;
+    color: var(--white-color);
     text-align: center;
     margin-bottom: 50px;
 }
@@ -21,7 +21,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    color: #fff;
+    color: var(--white-color);
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -41,17 +41,17 @@
   }
   
   .project-title {
-    margin-bottom: #1f2355;
+    margin-bottom: var(--Lightblue-color);
   }
   
   .project-details {
-    margin-bottom: #1f2355;
+    margin-bottom: var(--Lightblue-color);
   }
   
   .project-card {
-    background-color: #1A324C;
+    background-color: var(--Lightblue-color);
     border-radius: 11px;
-    box-shadow: 0 3px 10px #1f2355;
+    box-shadow: 0 3px 10px var(--Lightblue-color);
     padding: 20px;
     margin: 10px;
     margin-left: 40px;
