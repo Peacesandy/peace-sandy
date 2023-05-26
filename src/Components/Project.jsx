@@ -25,7 +25,7 @@ function Project() {
      <h3 className='project-title'>Meta Bnb Website</h3>
      <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
-     <a href="http://twitter.com/PeaceSandy3" target='_blank' className='project-link'>Check It Out</a>
+     <a href="http://twitter.com/PeaceSandy3"  className='project-link'>Check It Out</a>
     </div>
 
     <div className='project-container project-card'>
@@ -33,7 +33,7 @@ function Project() {
      <h3 className='project-title'>Meta Bnb Website</h3>
      <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
-     <a href="http://twitter.com/PeaceSandy3" target='_blank' className='project-link'>Check It Out</a>
+     <a href="http://twitter.com/PeaceSandy3" className='project-link'>Check It Out</a>
     </div>
 
     <div className='project-container project-card'>
@@ -41,7 +41,7 @@ function Project() {
      <h3 className='project-title'>Meta Bnb Website</h3>
      <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
-     <a href="http://twitter.com/PeaceSandy3" target='_blank' className='project-link'>Check It Out</a>
+     <a href="http://twitter.com/PeaceSandy3"  className='project-link'>Check It Out</a>
     </div>
 
     <div className='project-container project-card'>
@@ -49,7 +49,7 @@ function Project() {
      <h3 className='project-title'>Meta Bnb Website</h3>
      <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
-     <a href="http://twitter.com/PeaceSandy3" target='_blank' className='project-link'>Check It Out</a>
+     <a href="http://twitter.com/PeaceSandy3"  className='project-link'>Check It Out</a>
     </div>
 
 
@@ -58,7 +58,7 @@ function Project() {
      <h3 className='project-title'>Meta Bnb Website</h3>
      <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
-     <a href="http://twitter.com/PeaceSandy3" target='_blank' className='project-link'>Check It Out</a>
+     <a href="http://twitter.com/PeaceSandy3"  className='project-link'>Check It Out</a>
     </div>
 
     <div className='project-container project-card'>
@@ -66,7 +66,7 @@ function Project() {
      <h3 className='project-title'>Meta Bnb Website</h3>
      <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
-     <a href="http://twitter.com/PeaceSandy3" target='_blank' className='project-link'>Check It Out</a>
+     <a href="http://twitter.com/PeaceSandy3" className='project-link'>Check It Out</a>
     </div>
 
     <div className='project-container project-card'>
@@ -74,7 +74,7 @@ function Project() {
      <h3 className='project-title'>Meta Bnb Website</h3>
      <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
-     <a href="http://twitter.com/PeaceSandy3" target='_blank' className='project-link'>Check It Out</a>
+     <a href="http://twitter.com/PeaceSandy3"  className='project-link'>Check It Out</a>
     </div>
 
     </div>
