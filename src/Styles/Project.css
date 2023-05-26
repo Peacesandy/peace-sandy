@@ -57,6 +57,9 @@
 
   @media screen and (max-width: 720px) {
     
+    .project-container{
+      flex-direction: column;
+    }
 
      .project-container{
       width: 200%;
