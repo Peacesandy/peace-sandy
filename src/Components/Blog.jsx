@@ -19,23 +19,25 @@ function Blog() {
     <img src={firstarticle} alt="A git card" className='article'/>
         <h3 className='project-title'>Array</h3>
         <p className='project-details'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis corrupti beatae voluptatibus!</p>
-        <a href="http://twitter.com/PeaceSandy3"  className='project-link'>Check It Out</a>
+        <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button>Check it out</button></a>
     </div>
 
     <div className='project-container project-card'>
     <img src={secondarticle} alt="A git card" className='article'/>
         <h3 className='project-title'>Array</h3>
         <p className='project-details'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis corrupti beatae voluptatibus!</p>
-        <a href="http://twitter.com/PeaceSandy3"  className='project-link'>Check It Out</a>
+        <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button>Check it out</button></a>
     </div>
 
     <div className='project-container project-card'>
     <img src={thirdarticle} alt="A git card" className='article'/>
         <h3 className='project-title'>Array</h3>
         <p className='project-details'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis corrupti beatae voluptatibus!</p>
-        <a href="http://twitter.com/PeaceSandy3"  className='project-link'>Check It Out</a>
+        <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button>Check it out</button></a>
     </div>
-
+       <div className='view-more'>
+         <button>View More</button>
+       </div>
     </div>
     <hr/>
     </div>
