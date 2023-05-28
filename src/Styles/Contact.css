@@ -12,7 +12,6 @@
 
 .contact-form-container {
     max-width: 40.75rem;
-    text-align: center;
     margin: 0 auto;
     padding: 0.938rem;
     border-radius: 5px;
@@ -59,6 +58,10 @@ input[type=text],input[type=email], textarea{
     background-color: #1f2355;
     border: 2px solid #1f2355;
     cursor: pointer;
+  }
+
+  .btn-div{
+    text-align: center;
   }
 
   .socials {
