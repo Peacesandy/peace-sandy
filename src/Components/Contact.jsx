@@ -16,27 +16,29 @@ function Contact() {
       <div className='contact-form'>  
       <form>
         <div className='form-control'> 
-        <label htmlFor='name'>Name</label>
+        <label htmlFor='name' className='label-contact'>Name</label>
         <input
           id='name'
           type='text'
         />
         </div>
         <div className='form-control'> 
-        <label htmlFor='email'>Email</label>
+        <label htmlFor='email' className='label-contact'>Email</label>
         <input
           id='email'
           type='text'
         />
         </div>
         <div className='form-control'> 
-        <label htmlFor='message'>Message</label>
+        <label htmlFor='message' className='label-contact'>Message</label>
         <textarea
           id='message'
           type='text'
         ></textarea>
         </div>
+        <div className='btn-div'>
         <button type='submit' className='submit-btn'>send</button>
+        </div>
       </form>
       </div>
       </div>

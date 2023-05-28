@@ -12,6 +12,7 @@
 
 .contact-form-container {
     max-width: 40.75rem;
+    text-align: center;
     margin: 0 auto;
     padding: 0.938rem;
     border-radius: 5px;
@@ -47,6 +48,8 @@ input[type=text],input[type=email], textarea{
     background-color: #fff;
     border: 2px solid #1f2355;
     border-radius: 5px;
+    text-align: center;
+    align-items: center;
     font-size: 1rem;
     font-weight: var(--bold-font);
     transition: var(--transition);
@@ -71,6 +74,11 @@ input[type=text],input[type=email], textarea{
     text-decoration: none;
     width: 20px;
     height: 50px;
+}
+
+.label-contact{
+  color: #fff;
+  font-size: 15px;
 }
 
 
