@@ -32,16 +32,18 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 
-*,html{
+*,
+html {
   transition: 3s linear all;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }

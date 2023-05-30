@@ -1,75 +1,75 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 
-.skills-intro{
-    color: var(--white-color);
-    text-align: center;
-    font-size: 500% ;
-    padding-bottom: 40px;
-  }
-
-  .span-my{
-    color: var(--Lightblue-color);
-  }
-
-.Firestore{
-    height: 100px;
-    width: 90px;
-    display: block;
+.skills-intro {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 500%;
+  padding-bottom: 40px;
 }
 
-.Redux{
-    height: 100px;
-    width: 90px;
-    display: block;
+.span-my {
+  color: var(--Lightblue-color);
 }
 
-.Markdown{
-    height: 100px;
-    width: 90px;
-    display: block;
+.Firestore {
+  height: 100px;
+  width: 90px;
+  display: block;
 }
 
-.html{
-   height: 100px;
-   width: 90px;
-   display: block;
+.Redux {
+  height: 100px;
+  width: 90px;
+  display: block;
 }
 
-.css{
-    height: 100px;
-   width: 90px;
-   display: block;
+.Markdown {
+  height: 100px;
+  width: 90px;
+  display: block;
 }
 
-.javascript{
-    height: 100px;
-    width: 90px;
-    display: block;
+.html {
+  height: 100px;
+  width: 90px;
+  display: block;
 }
 
-.framework{
-    height: 100px;
-    width: 90px;
-    display: block;
+.css {
+  height: 100px;
+  width: 90px;
+  display: block;
 }
 
-.github{
-    height: 100px;
-   width: 90px;
-   display: block;
+.javascript {
+  height: 100px;
+  width: 90px;
+  display: block;
 }
 
-.git{
-    display: block;
-    height: 100px;
-   width: 90px;
+.framework {
+  height: 100px;
+  width: 90px;
+  display: block;
 }
 
-.card-skill{
- display: flex;
+.github {
+  height: 100px;
+  width: 90px;
+  display: block;
+}
+
+.git {
+  display: block;
+  height: 100px;
+  width: 90px;
+}
+
+.card-skill {
+  display: flex;
   text-align: center;
   font-size: small;
   justify-content: center;
@@ -79,173 +79,176 @@
 
 
 
-.skills-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    color: var(--white-color);
-    width: 60%;
-    margin: auto;
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  color: var(--white-color);
+  width: 60%;
+  margin: auto;
 }
 
-.skill-card{
-    position: relative;
+.skill-card {
+  position: relative;
 }
 
 .flip-card {
-    background-color: var(--Lightblue-color);
-    width: 200px;
-    height: 150px;
-    border: 1px solid var(--Lightblue-color);
-    box-shadow: 0 4px 8px 0 var(--Lightblue-color);
-    border-radius: 11px;
-    margin-left: 30px;
-    padding-left: 45px;
-    padding-top: 20px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
+  background-color: var(--Lightblue-color);
+  width: 200px;
+  height: 150px;
+  border: 1px solid var(--Lightblue-color);
+  box-shadow: 0 4px 8px 0 var(--Lightblue-color);
+  border-radius: 11px;
+  margin-left: 30px;
+  padding-left: 45px;
+  padding-top: 20px;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+}
 
-  .card:hover{
-    box-shadow: 0 8px 16px 0 var(--Lightblue-color);
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    border-radius: 5px;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-    border-radius: 5px;
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color: var(--Lightblue-color);
-    color: var(--white-color);
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
-    background-color: var(--Lightblue-color);
-    color: var(--white-color);
-    transform: rotateY(180deg);
-    border-radius: 10px;
-  }
+.card:hover {
+  box-shadow: 0 8px 16px 0 var(--Lightblue-color);
+}
 
-@media screen and (max-width: 720px){
-       
-  .flip-card{
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 5px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  border-radius: 5px;
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: var(--Lightblue-color);
+  color: var(--white-color);
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: var(--Lightblue-color);
+  color: var(--white-color);
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 720px) {
+
+  .flip-card {
     width: 120px;
     height: 100px;
-    margin-left: 4px ;
+    margin-left: 4px;
   }
-  
-  .Firestore{
+
+  .Firestore {
     margin-left: -15px;
     width: 60px;
     height: 70px;
-}
+  }
 
-.Redux{
-  margin-left: -15px;
+  .Redux {
+    margin-left: -15px;
     width: 60px;
     height: 70px;
-}
+  }
 
-.Markdown{
-  margin-left: -15px;
+  .Markdown {
+    margin-left: -15px;
     width: 60px;
     height: 70px;
-}
+  }
 
-.html{
-  margin-left: -15px;
+  .html {
+    margin-left: -15px;
     width: 60px;
     height: 70px;
-}
+  }
 
-.css{
-  margin-left: -15px;
-  width: 60px;
-  height: 70px;
-}
-
-.javascript{
-  margin-left: -15px;
-  width: 60px;
-  height: 70px;
-}
-
-.framework{
-  margin-left: -15px;
-  width: 60px;
-  height: 70px;
-}
-
-.github{
-  margin-left: -15px;
-  width: 60px;
-  height: 70px;
-}
-
-.git{
-  margin-left: -15px;
+  .css {
+    margin-left: -15px;
     width: 60px;
     height: 70px;
-}
+  }
+
+  .javascript {
+    margin-left: -15px;
+    width: 60px;
+    height: 70px;
+  }
+
+  .framework {
+    margin-left: -15px;
+    width: 60px;
+    height: 70px;
+  }
+
+  .github {
+    margin-left: -15px;
+    width: 60px;
+    height: 70px;
+  }
+
+  .git {
+    margin-left: -15px;
+    width: 60px;
+    height: 70px;
+  }
 
 }
 
 @media screen and (max-width: 480px) {
-  .flip-card{
+  .flip-card {
     width: 100px;
     height: 120px;
     margin-left: -5px;
   }
 
-  .skills-intro{
-    font-size: 300% ;
+  .skills-intro {
+    font-size: 300%;
     padding-bottom: 40px;
   }
 
-  .skills-container{
+  .skills-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     color: var(--white-color);
     width: 90%;
     margin: auto;
-}
+  }
 
 }
 
 @media screen and (max-width: 480px) {
-          
-  .skills-container{
+
+  .skills-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     color: var(--white-color);
     width: 85%;
     margin: auto;
-}
+  }
 
-  
+
 }

@@ -1,90 +1,73 @@
-
-html{
-  scroll-behavior: smooth;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
-
 nav {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 3px 4px;
-    background-color: var(--Darkblue-color);
-    box-shadow: 0 4px 6px var(--Darkblue-color);
-    transition: all .3s ease-in-out;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 4px;
+  background-color: var(--Darkblue-color);
+  box-shadow: 0 4px 6px var(--Darkblue-color);
+  transition: all .3s ease-in-out;
+}
 
-  nav h1{
-    color: var(--white-color);
-  }
+nav h1 {
+  color: var(--white-color);
+}
 
-  .nav-ul {
-    display: flex;
-    gap: 1px;
-  }
-  
-  .nav-li {
-    margin: 0px;
-    margin-left: 4rem;
-    list-style: none;
-  }
-  
-  a {
-    text-decoration: none;
-    color: var(--white-color);
-  }
-  
+.nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .burger-menu{
+.nav-li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+
+.burger-menu {
   font-size: 2rem;
   border: 0;
   background-color: transparent;
   cursor: pointer;
   display: none;
+}
+
+@media screen and (max-width: 720px) {
+
+  nav {
+    padding: 1.5rem 1rem;
   }
 
-  @media screen and (max-width: 720px){
-  
-    nav{
-      padding: 1.5rem 1rem;
-    }
-  
-    nav ul {
-      position: fixed;
-      background-color: var(--bg-color);
-      flex-direction: column;
-      top: 86px;
-      left: 10%;
-      width: 80%;
-      text-align: center;
-      transform: translateX(120%);
-      transition: transform 0.5s ease-in;
-    }
-  
-     nav ul li {
-      margin: 8px;
-    }
-  
-    .burger-menu {
-      display: block;
-    }
-  
-    nav ul.show {
-      transform: translateX(0);
-    }
-  
-  
-  
-  
+  nav ul {
+    position: fixed;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
   }
+
+  nav ul li {
+    margin: 8px;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  nav ul.show {
+    transform: translateX(0);
+  }
+
+
+
+
+}
