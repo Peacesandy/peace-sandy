@@ -35,9 +35,7 @@ function Blog() {
         <p className='project-details'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis corrupti beatae voluptatibus!</p>
         <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button>Check it out</button></a>
     </div>
-       <div className='view-more'>
-         <button>View More</button>
-       </div>
+       
     </div>
     <hr/>
     </div>

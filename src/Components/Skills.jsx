@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 import Html from '../Images/html.skills.png'
 import Css from '../Images/css-skills.png'
@@ -21,16 +22,16 @@ function Skills() {
       <h1 className='skills-intro'> <span className='span-my'>My</span> Skills</h1>
       <div className='skills-container'>
 
-        <div class="flip-card">
-          <div class="flip-card-inner">
+        <motion.div class="flip-card" >
+          <motion.div class="flip-card-inner" >
             <div class="flip-card-front">
               <img src={Html} alt="A git card" className='html' />
             </div>
             <div class="flip-card-back">
               <h6 className='card-skill'>HTML</h6>
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
 
 
         <div class="flip-card">

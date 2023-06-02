@@ -1,4 +1,5 @@
 import React from 'react'
+import {motion} from 'framer-motion'
 
 import "../Styles/Project.css"
 
@@ -18,15 +19,16 @@ function Project() {
         <h1>Projects</h1>
         <p>Check out some of my projects</p>
     </div>
+
     <div className='projects-container'>  
 
-    <div className='project-container project-card'>
+    <motion.div className='project-container project-card' whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
     <img src={metabnb} alt="A metabnb website" className='project-pic' loading='lazy'/>
      <h3 className='project-title'>Meta Bnb Website</h3>
      <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
      <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button>View the site</button></a>
-    </div>
+    </motion.div>
 
     <div className='project-container project-card'>
     <img src={movieapp} alt="A metabnb website" className='project-pic' loading='lazy'/>
@@ -76,9 +78,6 @@ function Project() {
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
      <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button>View the site</button></a>
     </div>
-      <div>
-        <button>View More</button>
-      </div>
     </div>
 
 

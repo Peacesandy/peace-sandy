@@ -85,11 +85,13 @@
   grid-gap: 20px;
   color: var(--white-color);
   width: 60%;
+  box-shadow: #040c16;
   margin: auto;
 }
 
 .skill-card {
   position: relative;
+  box-shadow: #040c16;
 }
 
 .flip-card {

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Navbar.css'
+import { motion } from "framer-motion";
 
 import { FaMicrosoft } from 'react-icons/fa'
 
@@ -8,7 +9,10 @@ function Navbar() {
     <header className="container">
 
       <nav className=''>
+        <motion.div animate={{ scale: 1.2 }}
+    transition={{ delay: 1, yoyo: Infinity }}>  
         <h1>Peace Sandy</h1>
+        </motion.div>
         <ul className='nav-ul'>
           <li className='nav-li'> <a href="#home">Home</a></li>
           <li className='nav-li'><a href="#about">About</a></li>

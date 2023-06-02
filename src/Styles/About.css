@@ -13,6 +13,10 @@
     min-height: 400px;
 }
 
+ul{
+    text-decoration: none;
+}
+
 hr {
     margin-top: 10%;
 }

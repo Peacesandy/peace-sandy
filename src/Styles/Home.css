@@ -9,6 +9,12 @@
     color: var(--white-color);
 }
 
+.social-icons{
+    color: var(--white-color);
+    margin: 10px;
+    margin-left: 90%;
+}
+
 .span-software {
     color: var(--Lightblue-color);
 }
