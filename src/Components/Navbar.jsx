@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styles/Navbar.css'
 
-import { FaUserTie } from 'react-icons/fa'
+import { FaMicrosoft } from 'react-icons/fa'
 
 function Navbar() {
   return (
@@ -19,7 +19,7 @@ function Navbar() {
           <li className='nav-li'><a href="#contact"> Contact</a></li>
         </ul>
         <button className='burger-menu' id='burger-menu'>
-          <FaUserTie />
+          <FaMicrosoft />
         </button>
       </nav>
     </header>
