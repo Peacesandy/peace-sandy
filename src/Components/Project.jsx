@@ -27,57 +27,57 @@ function Project() {
      <h3 className='project-title'>Meta Bnb Website</h3>
      <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
-     <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button>View the site</button></a>
+     <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button className='view-site'>View the site</button></a>
     </motion.div>
 
-    <div className='project-container project-card'>
+    <motion.div className='project-container project-card' whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
     <img src={movieapp} alt="A metabnb website" className='project-pic' loading='lazy'/>
      <h3 className='project-title'>Meta Bnb Website</h3>
      <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
-     <a href="http://twitter.com/PeaceSandy3" className='project-link'><button>View the site</button></a>
-    </div>
+     <a href="http://twitter.com/PeaceSandy3" className='project-link'><button className='view-site'>View the site</button></a>
+    </motion.div>
 
-    <div className='project-container project-card'>
+    <motion.div className='project-container project-card' whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
     <img src={drinkwater} alt="A metabnb website" className='project-pic' loading='lazy'/>
      <h3 className='project-title'>Meta Bnb Website</h3>
      <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
-     <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button>View the site</button></a>
-    </div>
+     <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button className='view-site'>View the site</button></a>
+    </motion.div>
 
-    <div className='project-container project-card'>
+    <motion.div className='project-container project-card' whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
     <img src={smartlist} alt="A metabnb website" className='project-pic' loading='lazy'/>
      <h3 className='project-title'>Meta Bnb Website</h3>
      <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
-     <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button>View the site</button></a>
-    </div>
+     <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button className='view-site'>View the site</button></a>
+    </motion.div>
 
 
-    <div className='project-container project-card'>
+    <motion.div className='project-container project-card' whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
     <img src={githubprofiles} alt="A metabnb website" className='project-pic' loading='lazy'/>
      <h3 className='project-title'>Meta Bnb Website</h3>
      <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
-     <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button>View the site</button></a>
-    </div>
+     <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button className='view-site'>View the site</button></a>
+    </motion.div>
 
-    <div className='project-container project-card'>
+    <motion.div className='project-container project-card' whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
     <img src={Dadjoke} alt="A metabnb website" className='project-pic' loading='lazy'/>
      <h3 className='project-title'>Meta Bnb Website</h3>
      <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
-     <a href="http://twitter.com/PeaceSandy3" className='project-link'><button>View the site</button></a>
-    </div>
+     <a href="http://twitter.com/PeaceSandy3" className='project-link'><button className='view-site'>View the site</button></a>
+    </motion.div>
 
-    <div className='project-container project-card'>
+    <motion.div className='project-container project-card' whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
     <img src={quizapp} alt="A metabnb website" className='project-pic' loading='lazy'/>
      <h3 className='project-title'>Meta Bnb Website</h3>
      <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
      ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
-     <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button>View the site</button></a>
-    </div>
+     <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button className='view-site'>View the site</button></a>
+    </motion.div>
     </div>
 
 

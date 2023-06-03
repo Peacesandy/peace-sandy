@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion } from "framer-motion";
+
 
 import Html from '../Images/html.skills.png'
 import Css from '../Images/css-skills.png'
@@ -19,132 +19,71 @@ import '../Styles/Skills.css'
 function Skills() {
   return (
     <div id='skill-section' className='container skills'>
-      <h1 className='skills-intro'> <span className='span-my'>My</span> Skills</h1>
-      <div className='skills-container'>
-
-        <motion.div class="flip-card" >
-          <motion.div class="flip-card-inner" >
-            <div class="flip-card-front">
-              <img src={Html} alt="A git card" className='html' />
-            </div>
-            <div class="flip-card-back">
-              <h6 className='card-skill'>HTML</h6>
-            </div>
-          </motion.div>
-        </motion.div>
-
-
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src={Git} alt="A git card" className='git' />
-            </div>
-            <div class="flip-card-back">
-              <h6 className='card-skill'>GIT</h6>
-            </div>
-          </div>
-        </div>
-
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src={Css} alt="A git card" className='css' />
-            </div>
-            <div class="flip-card-back">
-              <h6 className='card-skill'>CSS</h6>
-            </div>
-          </div>
-        </div>
-
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src={Javascript} alt="A git card" className='javascript' />
-            </div>
-            <div class="flip-card-back">
-              <h6 className='card-skill'>JAVASCRIPT</h6>
-            </div>
-          </div>
-        </div>
-
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src={Framework} alt="A git card" className='framework' />
-            </div>
-            <div class="flip-card-back">
-              <h6 className='card-skill'>REACT</h6>
-            </div>
-          </div>
-        </div>
-
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src={Github} alt="A git card" className='github' />
-            </div>
-            <div class="flip-card-back">
-              <h6 className='card-skill'>GIT</h6>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src={Firestore} alt="A git card" className='Firestore' />
-            </div>
-            <div class="flip-card-back">
-              <h6 className='card-skill'>FIRESTORE</h6>
-            </div>
-          </div>
-        </div>
-
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src={Styled} alt="A git card" className='Redux' />
-            </div>
-            <div class="flip-card-back">
-              <h6 className='card-skill'>REDUX</h6>
-            </div>
-          </div>
-        </div>
-
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src={Markdown} alt="A git card" className='Markdown' />
-            </div>
-            <div class="flip-card-back">
-              <h6 className='card-skill'>MARKDOWN</h6>
-            </div>
-          </div>
-        </div>
-
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src={Figma} alt="A git card" className='Markdown' />
-            </div>
-            <div class="flip-card-back">
-              <h6 className='card-skill'>MARKDOWN</h6>
-            </div>
-          </div>
-        </div>
-
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src={Sass} alt="A git card" className='Markdown' />
-            </div>
-            <div class="flip-card-back">
-              <h6 className='card-skill'>SASS</h6>
-            </div>
-          </div>
-        </div>
+        <hr />
+      <div className='skills-intro'>
+        <h1>My Skills.</h1>
       </div>
+       <div className='row'>
+
+       <div className="skills">
+                <div className="bar">
+                    <p> HTML</p>
+                    <img src={Html} className='html' alt=''/>
+                </div>
+                 
+                <div className="bar">
+                    <p> Css</p>
+                    <img src={Css} className='css' alt=''/>
+                </div>
+
+                <div className="bar">
+                    <p> Figma</p>
+                    <img src={Figma} className='Markdown' alt=''/>
+                </div>
+
+                <div className="bar">
+                    <p> GitHub</p>
+                    <img src={Github} className='github' alt=''/>
+                </div>
+
+                <div className="bar">
+                    <p> Framework</p>
+                    <img src={Framework} className='framework' alt=''/>
+                </div>
+
+                <div className="bar">
+                    <p> Sass</p>
+                    <img src={Sass} className='Markdown' alt='javascript'/>
+                </div>
+
+                <div className="bar">
+                    <p> Javascript</p>
+                    <img src={Javascript} className='javascript' alt=''/>
+                </div>
+
+                <div className="bar">
+                    <p>Markdown </p>
+                    <img src={Markdown} alt='' className='Markdown'/>
+                </div>
+
+                <div className="bar">
+                    <p> Git</p>
+                    <img src={Git}  alt='' className='git'/>
+                </div>
+
+                <div className="bar">
+                    <p> Styled</p>
+                    <img src={Styled} alt='' className='Firestore'/>
+                </div>
+
+                <div className="bar">
+                    <p> Firestore</p>
+                    <img src={Firestore} alt='' className='Firestore'/>
+                </div>
+
+
+                </div>
+       </div>
     </div>
   )
 }

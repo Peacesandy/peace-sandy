@@ -10,7 +10,7 @@ function About() {
     <>
     <motion.div initial={{ opacity: 0, x: '-100vh' }}
     animate={{ opacity: 1, x: 0 }}
-    transition={{ type: 'spring', bounce: 0.6 }}>  
+    transition={{ type: 'spring', bounce: 0.6 }}> 
       <h1 className='About-intro'>About <span className="span-ut">Me</span></h1>
       </motion.div>
       <div className='about container' id='about'>

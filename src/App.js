@@ -20,7 +20,15 @@ function App() {
   return (
        <>
         <Navbar/>
+        <div className="page">
+        <span className="tags top-tags">&lt;body/&gt;</span>
+       </div>
         <Home/>
+        <span className="tags bottom-tags">
+        &lt;body&gt;
+        <br/>
+        <span className="bottom-tag-html">&lt;body/&gt;</span>
+        </span>
         <About/>
         <Skills/>
         <Experience/>
