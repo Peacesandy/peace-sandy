@@ -36,6 +36,10 @@ function Blog() {
         <p className='project-details'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis corrupti beatae voluptatibus!</p>
         <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button className='view-site'>Check it out</button></a>
     </motion.div>
+
+    <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className='view-more'>
+    <button className='view-site-blog'>View More</button>
+    </motion.div> 
        
     </div>
     <hr/>

@@ -1,11 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import '../Styles/Loading.css';
 
-function Loading() {
+import { preLoaderAnim } from '../Animations';
+
+
+const PreLoader = () => {
+  useEffect(() => {
+    preLoaderAnim();
+  }, []);
   return (
-    <div>
-      <h2>Loading...</h2>
+    <div className="preloader">
+      <div className="texts-container">
+        <span>Developer,</span>
+        <span>Writer,</span>
+        <span>Creative.</span>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Loading
+export default PreLoader;
+

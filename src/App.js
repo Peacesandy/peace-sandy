@@ -12,6 +12,7 @@ import Experience from "./Components/Experience";
 import Project from "./Components/Project"
 import Blog from "./Components/Blog";
 import Footer from "./Components/Footer"
+import Loading from "./Components/Loading"
 
 
 
@@ -19,6 +20,7 @@ import Footer from "./Components/Footer"
 function App() {
   return (
        <>
+       <Loading/>
         <Navbar/>
         <div className="page">
         <span className="tags top-tags">&lt;body/&gt;</span>

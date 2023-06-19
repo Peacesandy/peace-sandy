@@ -1,12 +1,15 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', 'sans-serif';
 }
-
 
 .skills-intro {
   color: var(--white-color);
   text-align: center;
-  font-size: 300%;
+  font-size: 200%;
   padding-bottom: 40px;
 }
 
@@ -14,169 +17,72 @@
   color: var(--Lightblue-color);
 }
 
-.Firestore {
-  height: 100px;
-  width: 90px;
-  display: block;
-}
 
-.Redux {
-  height: 100px;
-  width: 90px;
-  display: block;
-}
 
-.Markdown {
-  height: 100px;
-  width: 90px;
-  display: block;
-}
 
-.html {
-  height: 100px;
-  width: 90px;
-  display: block;
-}
-
-.css {
-  height: 100px;
-  width: 90px;
-  display: block;
-}
-
-.javascript {
-  height: 100px;
-  width: 90px;
-  display: block;
-}
-
-.framework {
-  height: 100px;
-  width: 90px;
-  display: block;
-}
-
-.github {
-  height: 100px;
-  width: 90px;
-  display: block;
-}
-
-.git {
-  display: block;
-  height: 100px;
-  width: 90px;
-}
-
-.card-skill {
-  display: flex;
-  text-align: center;
-  font-size: small;
+.first-skill{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+  font-size: 1.2rem;
+  align-items: center;
   justify-content: center;
-  color: var(--white-color);
-  margin-right: 40%;
+}
+
+
+.skill-box{
+  padding: 1rem;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.skill-box:hover > .skill-title::after, .skill-box:hover > .skill-title::before{
+  width: 35px;
+}
+
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 
 
 
-@media screen and (max-width: 720px) {
-
-  .flip-card {
-    width: 120px;
-    height: 100px;
-    margin-left: 4px;
-  }
-
-  .Firestore {
-    margin-left: -15px;
-    width: 60px;
-    height: 70px;
-  }
-
-  .Redux {
-    margin-left: -15px;
-    width: 60px;
-    height: 70px;
-  }
-
-  .Markdown {
-    margin-left: -15px;
-    width: 60px;
-    height: 70px;
-  }
-
-  .html {
-    margin-left: -15px;
-    width: 60px;
-    height: 70px;
-  }
-
-  .css {
-    margin-left: -15px;
-    width: 60px;
-    height: 70px;
-  }
-
-  .javascript {
-    margin-left: -15px;
-    width: 60px;
-    height: 70px;
-  }
-
-  .framework {
-    margin-left: -15px;
-    width: 60px;
-    height: 70px;
-  }
-
-  .github {
-    margin-left: -15px;
-    width: 60px;
-    height: 70px;
-  }
-
-  .git {
-    margin-left: -15px;
-    width: 60px;
-    height: 70px;
-  }
-
+.skill-img{
+  width: 50px;
+  z-index: 2;
 }
 
-@media screen and (max-width: 480px) {
-  .flip-card {
-    width: 100px;
-    height: 120px;
-    margin-left: -5px;
-  }
-
-  .skills-intro {
-    font-size: 300%;
-    padding-bottom: 40px;
-  }
-
-  .skills-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    color: var(--white-color);
-    width: 90%;
-    margin: auto;
-  }
-
+.skill-title h3{
+  color: #fff;
+  margin: 0.5rem;
 }
 
-@media screen and (max-width: 480px) {
+.skill-div{
+   width: 90px;
+   height: 90px;
+   position: relative;
+   border-radius: 45px;
+   display: flex;
+   justify-content: center;
+   background-color: var(--Lightblue-color);
+   align-items: center;
+}
 
-  .skills-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    color: var(--white-color);
-    width: 85%;
-    margin: auto;
-  }
+@media screen and (max-width: 420px) {
+    .first-skill{
+      grid-template-columns: repeat(2, 1fr);
+      padding: 2rem 50px;
+    }
 
-
+    .skills-intro {
+      color: var(--white-color);
+      text-align: center;
+      font-size: 150%;
+      padding-bottom: 20px;
+    }
 }

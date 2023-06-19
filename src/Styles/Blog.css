@@ -19,3 +19,22 @@
     font-size: 40px;
 }
 
+.view-site-blog{
+    color: #ffd200;
+    background: 0 0;
+    font: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #ffd200;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.view-more{
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150%;
+}
