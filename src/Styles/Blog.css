@@ -38,3 +38,10 @@
     justify-content: center;
     margin-left: 150%;
 }
+
+@media screen and (max-width: 420px) {
+    
+    .view-more{
+        margin-left: 80px;
+    }
+}
