@@ -18,7 +18,7 @@ import '../Styles/Skills.css'
 
 function Skills() {
   return (
-    <div id='skill-section' className='container skills'>
+    <div id='skills' className='container skills'>
 
         
 <hr />

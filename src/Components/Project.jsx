@@ -13,7 +13,7 @@ import Dadjoke from '../Images/Dad Joke.png'
 
 function Project() {
   return (
-    <div className='project'>
+    <div id='project' className='project'>
         <hr/>
     <div className='project-title'>
         <h1>Projects</h1>
