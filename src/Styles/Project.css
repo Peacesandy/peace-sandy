@@ -54,6 +54,21 @@
   margin-top: 60px;
 }
 
+.view-site1{
+  color: #ffd200;
+  background: 0 0;
+  font: 11px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding: 8px 10px;
+  border: 1px solid #ffd200;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+
+
 .view-site{
   color: #ffd200;
   background: 0 0;
