@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Styles/Navbar.css'
 import { motion } from "framer-motion";
 import { FaMicrosoft } from 'react-icons/fa'
-import { useState } from 'react';
-
-
 
 function Navbar() {
 
-  const [navbarOpen, setNavbarOpen] = useState(false)
+  const [showNavbar, setShowNavbar] = useState(false)
+  
+
+  const handleShowNavbar = () => {
+    setShowNavbar(!showNavbar)
+    console.log(showNavbar)
+  }
 
   return (
     <header className="container">
@@ -18,8 +21,8 @@ function Navbar() {
     transition={{ delay: 1, yoyo: Infinity }}>  
         <h1>Peace Sandy</h1>
         </motion.div>
-        <div> 
-        <ul className={`nav-ul${navbarOpen ? ' show-menu' : ''}`}>
+        <div className={`nav-elements`}> 
+        <ul className={`nav-ul  ${showNavbar && 'active'}`}>
           <li className='nav-li'> <a href="#home">Home</a></li>
           <li className='nav-li'><a href="#about">About</a></li>
           <li className='nav-li'> <a href="#skills">Skills</a></li>
@@ -29,8 +32,7 @@ function Navbar() {
           <li className='nav-li'><a href="#contact"> Contact</a></li>
         </ul>
         </div>
-        <button className='burger-menu' id='burger-menu' onClick={() => setNavbarOpen((prev) => !prev)}>
-          {navbarOpen ? 'close' : 'open'}
+        <button className='burger-menu' id='burger-menu' onClick={handleShowNavbar}>
           <FaMicrosoft />
         </button>
       </nav>

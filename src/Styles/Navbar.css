@@ -44,17 +44,19 @@ a {
 
   nav {
     padding: 1.5rem 1rem;
+    z-index: 15;
   }
 
   nav ul {
     position: fixed;
-    background-color: var(--bg-color);
+    background-color: darkblue;
     flex-direction: column;
     top: 86px;
     left: 10%;
     width: 80%;
+    z-index: 15;
     text-align: center;
-    transform: translateX(120%);
+    transform: translateX(120%); 
     transition: transform 0.5s ease-in;
   }
 
@@ -77,11 +79,8 @@ a {
     display: block;
   }
 
-  nav ul.show {
+  nav ul.active{
     transform: translateX(0);
   }
-
-
-
 
 }

@@ -53,10 +53,11 @@ function Project() {
 
     <motion.div className='project-container project-card' whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>
     <img src={smartlist} alt="A metabnb website" className='project-pic' loading='lazy'/>
-     <h3 className='project-title'>Meta Bnb Website</h3>
-     <p className='project-details'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum commodi autem repudiandae, 
-     ipsum ipsam sapiente doloribus, expedita officiis dolores officia delectus excepturi soluta dolorum!</p>
-     <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button className='view-site'>View the site</button></a>
+     <h3 className='project-title'>Smart Shopping List</h3>
+     <p className='project-details'> A “smart” shopping list app that learns your buying habits and helps you remember what you are likely to need to buy on your next trip to the store.</p>
+     <a href="https://github.com/the-collab-lab/tcl-58-smart-shopping-list"  className='project-link'><button className='view-site1'>View the site</button></a>
+     <br/>
+     <a href="http://twitter.com/PeaceSandy3"  className='project-link'><button className='view-site'>View live code</button></a>
     </motion.div>
 
 
